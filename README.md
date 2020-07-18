@@ -3,7 +3,7 @@
 ## Brand names
 ZBT WE1026, ZBT WE826 and many others no-names from Aliexpress, [see below](#how-to-buy)  
 ![hardware](img/IMG_20190309_020856_1600x1200.jpg)   
-##Hardware
+## Hardware
 128-256MB memory  
 16MB FLASH  
 HUAWEI ME909 LTE modem  
