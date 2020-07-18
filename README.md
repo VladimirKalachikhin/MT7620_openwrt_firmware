@@ -2,7 +2,7 @@
 **openwrt 19.07.2**
 ## Brand names
 ZBT WE1026, ZBT WE826 and many others no-names from Aliexpress, [see below](#how-to-buy)  
-![hardware](img/IMG_20190309_020856_1600x1200.jpg) 
+![hardware](img/IMG_20190309_020856_1600x1200.jpg)   
 ##Hardware
 128-256MB memory  
 16MB FLASH  
@@ -42,7 +42,7 @@ sysupgrade -v /mnt/extUSB/*.bin
 this will copy firmware to `/tmp` and install it with save the settings
 ## Usage
 Place your web applications and data to SD-card and configure web server.  
-For example,  [GaladrielMap](https://github.com/VladimirKalachikhin/Galadriel-map/tree/master) navigation suite may be installed as described in the project's [/emergencykit/nginx_galadrielmap_conf/README.txt](https://github.com/VladimirKalachikhin/Galadriel-map/tree/master/emergencykit)  
+For example,  [GaladrielMap](http://galadrielmap.hs-yachten.at/) navigation suite may be installed as described in the project's [/emergencykit/nginx_galadrielmap_conf/README.txt](https://github.com/VladimirKalachikhin/Galadriel-map/tree/master/emergencykit)  
 Plug in GNSS reciever to usb port.
 ## How to buy
 China's are our friends!  
