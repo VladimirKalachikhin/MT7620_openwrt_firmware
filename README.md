@@ -1,5 +1,6 @@
 # MT7620A based router OpenWRT firmware [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 **openwrt 19.07.2**
+
 ## Brand names
 ZBT WE1026, ZBT WE826 and many others no-names from Aliexpress, [see below](#how-to-buy)  
 ![hardware](img/IMG_20190309_020856_1600x1200.jpg)   
@@ -7,8 +8,14 @@ ZBT WE1026, ZBT WE826 and many others no-names from Aliexpress, [see below](#how
 128-256MB memory  
 16MB FLASH  
 HUAWEI ME909 LTE modem  
+LAN  
+WAN  
+USB  
+micro SDcard reader
+
 ## Description
 The goal of this firmware - a general-purpose server with communication capabilities for boat and camper with zero administration and graphical user interface.  
+
 ### Firmware include:  
 * standard OpenWRT user interface witn necessary plugins 
 * all OpenWRT communication features: ssh, vpn, routing, firevall, etc.
@@ -19,12 +26,16 @@ The goal of this firmware - a general-purpose server with communication capabili
 * PHP7
 * full usb support
 * support GNSS receivers, AIS, etc via [gpsd](https://gpsd.io/) (need configuration first)
+
 ### Firmware not include:
 * ability to install new software
+
 ### Works
 All
+
 ### Not works
 Some LED's
+
 ## Firmware installation
 Use standard OpenWRT GUI tools, or  
 
@@ -40,11 +51,13 @@ mount /dev/sda1 /mnt/extUSB
 sysupgrade -v /mnt/extUSB/*.bin
 ```
 this will copy firmware to `/tmp` and install it with save the settings
+
 ## Usage
 Place your web applications and data to SD-card and configure web server.  
 For example,  [GaladrielMap](http://galadrielmap.hs-yachten.at/) navigation suite may be installed as described in the project's [/emergencykit/nginx_galadrielmap_conf/README.txt](https://github.com/VladimirKalachikhin/Galadriel-map/tree/master/emergencykit)  
 Plug in GNSS reciever to usb port.
-## How to buy
+
+## How to buy router
 China's are our friends!  
 See AliExpress to buy:  
 [aliexpress.com/item/32842622527.html](https://www.aliexpress.com/item/32842622527.html)  
@@ -55,6 +68,11 @@ See AliExpress to buy:
 [aliexpress.com/item/32795180047.html](https://www.aliexpress.com/item/32795180047.html)  
 [aliexpress.com/item/32954175411.html](https://www.aliexpress.com/item/32954175411.html)  
 and many other sellers  
-When purchasing ask 16MB FLASH, HUAWEI ME909 LTE modem and OpenWRT (not SDK) firmware. 256NB RAM preferably.
+When purchasing ask 16MB FLASH, HUAWEI ME909 LTE modem and OpenWRT (not SDK) firmware. 256MB RAM preferably.
+
 ## Build firmware
 You may want to build firmware yourself for 32MB FLASH version hardware or other modem. See [how-to](https://openwrt.org/docs/guide-developer/build-system/start) for it. The `diffconfig` included.
+
+## Support
+You can get support for build and install firmware for a beer [via PayPal](https://paypal.me/VladimirKalachikhin) or [YandexMoney](https://yasobe.ru/na/galadrielmap) at [galadrielmap@gmail.com](mailto:galadrielmap@gmail.com)  
+In the same way You can order router with this firmware and pre-installed [GaladrielMap](https://github.com/VladimirKalachikhin/Galadriel-map) & [GaladrielCache](https://github.com/VladimirKalachikhin/Galadriel-cache).
