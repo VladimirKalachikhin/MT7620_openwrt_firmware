@@ -1,5 +1,5 @@
 # Прошивка OpenWRT для wi-fi маршрутизатора на базе MT7620A с GSM модемом[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
-**openwrt 19.07.2**
+**openwrt 19.07.6_GaladrielMap_edition**
 
 ## Торговые марки
 Маршрутизатор выпускается под именем ZBT WE1026, ZBT WE826 и присутствует на Aliexpress под этими и многими другими названиями ([см. ниже](#how-to-buy))  
@@ -26,6 +26,8 @@ micro SDcard reader
 * Веб-сервер NGINX
 * PHP7
 * Поддержку разнообразных usb устройств
+* polipo
+* tor
 * Поддержку приёмников GNSS, приёмников AIS и другого, что может [gpsd](https://gpsd.io/). (Однако, в некоторых случаях потребуется дополнительная конфигурация.)
 
 ### Прошивка не содержит:

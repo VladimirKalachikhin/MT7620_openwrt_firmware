@@ -1,5 +1,5 @@
 # MT7620A based router OpenWRT firmware [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
-**openwrt 19.07.2**
+**openwrt 19.07.6_GaladrielMap_edition**
 
 ## Brand names
 ZBT WE1026, ZBT WE826 and many others no-names from Aliexpress, [see below](#how-to-buy)  
@@ -15,6 +15,7 @@ micro SDcard reader
 
 ## Description
 The goal of this firmware - a general-purpose server with communication capabilities for boat and camper with zero administration and graphical user interface.  
+Ready to use with [GaladrielMap](http://galadrielmap.hs-yachten.at/)
 
 ### Firmware include:  
 * standard OpenWRT user interface witn necessary plugins 
@@ -25,6 +26,8 @@ The goal of this firmware - a general-purpose server with communication capabili
 * NGINX web server
 * PHP7
 * full usb support
+* polipo
+* tor
 * support GNSS receivers, AIS, etc via [gpsd](https://gpsd.io/) (need configuration first)
 
 ### Firmware not include:
