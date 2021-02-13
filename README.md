@@ -71,7 +71,7 @@ See AliExpress to buy:
 [aliexpress.com/item/32795180047.html](https://www.aliexpress.com/item/32795180047.html)  
 [aliexpress.com/item/32954175411.html](https://www.aliexpress.com/item/32954175411.html)  
 and many other sellers  
-When purchasing ask 16MB FLASH, HUAWEI ME909 LTE modem and OpenWRT (not SDK) firmware. 256MB RAM preferably.
+When purchasing ask 16MB FLASH, QMI (Qualcomm MSM Interface) modem and OpenWRT (not SDK) firmware. 256MB RAM preferably.
 
 ## Build firmware
 You may want to build firmware yourself for 32MB FLASH version hardware or other modem. See [how-to](https://openwrt.org/docs/guide-developer/build-system/start) for it. The `diffconfig` included.
