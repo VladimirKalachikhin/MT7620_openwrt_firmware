@@ -1,5 +1,5 @@
 # MT7620A based router OpenWRT firmware [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
-**openwrt 19.07.6_GaladrielMap_edition**
+**openwrt 19.07.8_GaladrielMap_edition**
 
 ## Brand names
 ZBT WE1026, ZBT WE826 and many others no-names from Aliexpress, [see below](#how-to-buy)  
@@ -7,7 +7,7 @@ ZBT WE1026, ZBT WE826 and many others no-names from Aliexpress, [see below](#how
 ## Hardware
 128-256MB memory  
 16MB FLASH  
-HUAWEI ME909 LTE modem  
+HUAWEI ME909 LTE or other modem  
 LAN  
 WAN  
 USB  
@@ -15,7 +15,8 @@ micro SDcard reader
 
 ## Description
 The goal of this firmware - a general-purpose server with communication capabilities for boat and camper with zero administration and graphical user interface.  
-Ready to use with [GaladrielMap](http://galadrielmap.hs-yachten.at/)
+Ready to use with [GaladrielMap](http://galadrielmap.hs-yachten.at/)  
+
 
 ### Firmware include:  
 * standard OpenWRT user interface witn necessary plugins 
@@ -32,6 +33,7 @@ Ready to use with [GaladrielMap](http://galadrielmap.hs-yachten.at/)
 
 ### Firmware not include:
 * ability to install new software
+* sshfs. Only Dropbear, sorry
 
 ### Works
 All
@@ -47,12 +49,14 @@ Use standard OpenWRT GUI tools, or
 3. Mount usb FLASH with firmware:  
 ```
 mkdir /mnt/extUSB
-mount /dev/sda1 /mnt/extUSB
+mount /dev/sda1 /mnt/extUSB  
 ```
-4. Burn:
+
+4. Burn:  
 ```
 sysupgrade -v /mnt/extUSB/*.bin
 ```
+
 this will copy firmware to `/tmp` and install it with save the settings
 
 ## Usage
