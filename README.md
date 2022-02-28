@@ -1,5 +1,5 @@
 # MT7620A based router OpenWRT firmware [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
-**openwrt 19.07.8_GaladrielMap_edition**
+**openwrt 19.07.9_GaladrielMap_edition**
 
 ## Brand names
 ZBT WE1026, ZBT WE826 and many others no-names from Aliexpress, [see below](#how-to-buy)  
@@ -27,7 +27,7 @@ Ready to use with [GaladrielMap](http://galadrielmap.hs-yachten.at/)
 * NGINX web server
 * PHP7
 * full usb support
-* polipo
+* vsFTPd ftp server
 * tor
 * support GNSS receivers, AIS, etc via [gpsd](https://gpsd.io/) (need configuration first)
 
